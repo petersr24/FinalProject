@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abel</item>
+        <item>@font/alef</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/anton</item>
+        <item>@font/archivo</item>
+        <item>@font/aubrey</item>
+        <item>@font/biorhyme_extralight</item>
+        <item>@font/butterfly_kids</item>
+        <item>@font/clicker_script</item>
+        <item>@font/im_fell_dw_pica</item>
+        <item>@font/im_fell_dw_pica_italic</item>
+        <item>@font/jacques_francois</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/satisfy</item>
+        <item>@font/ubuntu_mono</item>
+    </array>
+</resources>

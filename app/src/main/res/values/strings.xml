@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_blurb">This app is created to be a fun way to learn more about Taylor Swift and her music! Taylor is a 12 time grammy award, 14 time VMA award, 29 time Bilboard Award, and 23 time American Music Award winner. Aside from being a music icon, she is also a philanthropest, smart buissinesswoman, and an inspiration to girls and women around the world! </string>
+    <string name = "fact_one" >Taylor grew up on a christmas tree farm!</string>
+    <string name = "fact_two" >Taylors mom wanted her to be a horseback rider </string>
+    <string name = "fact_three" >Taylor wrote a 350-page novel when she was 12, which has never been published. </string>
+    <string name = "fact_four" >Taylors favorite TV series is "Friends"</string>
+    <string name = "fact_five" >Taylor wrote every song by herself on her third album, "Speak Now."</string>
+    <string name = "about_creator" > Hi! Im Rose Peters, the creator of this app and a lifelong swiftie. I have listened to her music ever since I was little. I am also inspired by her as a person. To me, she demonstrates confidence, resilience, and originality. I think that her work can inspire many others as well. I created this app to honor her! Let me know what you think about it!</string>
+    <string name = "about_app_creator" >about app creator</string>
+    <string name = "about_app" >About the App</string>
+    <string name = "website" >website</string>
+    <string name = "article" >article</string>
+    <string name = "email" >gmail</string>
+    <string name = "phone" >phone</string>
+    <string name = "about_me" >About the Creator</string>
+    <string name = "me_at_taylor" >Me at a Taylor Concert</string>
+    <string name = "angry" >angry</string>
+    <string name = "happy" >happy</string>
+    <string name = "sad" >sad</string>
+    <string name = "choose_route" >Choose Your Route</string>
+    <string name = "playlist_reccomender" >playlist reccomender</string>
+    <string name = "fun_acts" >Fun Facts</string>
+    <string name = "fav_fun_fact" >Your Favorite Fun Fact:</string>
+    <string name = "will_show_here" >Your Favorite Fun Fact will show here</string>
+    <string name = "click_here" >Click Here!</string>
+    <string name = "list_facts" >Here are a list of fun facts! Choose your favorite by clicking on it!</string>
+    <string name = "mood_question" >What is your current mood?</string>
+    <string name = "the_ultimate" >The Ultimate</string>
+    <string name = "tay_swift" >Taylor Swift</string>
+    <string name = "app" >App</string>
+    <string name = "go" >go</string>
+    <string name = "Fearless" >fearless</string>
+    <string name = "speak_now" >Speak Now</string>
+    <string name = "red" >RED</string>
+    <string name = "nine_teen_eighty_nine" >1988</string>
+    <string name = "rep" >reputation</string>
+    <string name = "lover" >Lover</string>
+    <string name = "folklore" >folklore</string>
+    <string name = "evermore" >evermore</string>
+    <string name = "midnights" >Midnights</string>
+
+
+
+
+
+
+
+
+
+
 </resources>

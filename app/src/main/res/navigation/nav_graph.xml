@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.finalproject.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_chooseRouteFragment"
+            app:destination="@id/chooseRouteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.finalproject.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_sadFragment"
+            app:destination="@id/sadFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_angryFragment"
+            app:destination="@id/angryFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_happyFragment"
+            app:destination="@id/happyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/angryFragment"
+        android:name="com.example.finalproject.AngryFragment"
+        android:label="fragment_angry"
+        tools:layout="@layout/fragment_angry" />
+    <fragment
+        android:id="@+id/happyFragment"
+        android:name="com.example.finalproject.HappyFragment"
+        android:label="fragment_happy"
+        tools:layout="@layout/fragment_happy" />
+    <fragment
+        android:id="@+id/sadFragment"
+        android:name="com.example.finalproject.SadFragment"
+        android:label="fragment_sad"
+        tools:layout="@layout/fragment_sad" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.finalproject.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_aboutCreatorFragment"
+            app:destination="@id/aboutCreatorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseRouteFragment"
+        android:name="com.example.finalproject.ChooseRouteFragment"
+        android:label="fragment_choose_route"
+        tools:layout="@layout/fragment_choose_route" >
+        <action
+            android:id="@+id/action_chooseRouteFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_chooseRouteFragment_to_funFactFragment"
+            app:destination="@id/funFactFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutCreatorFragment"
+        android:name="com.example.finalproject.AboutCreatorFragment"
+        android:label="fragment_about_creator"
+        tools:layout="@layout/fragment_about_creator" />
+    <fragment
+        android:id="@+id/funFactFragment"
+        android:name="com.example.finalproject.FunFactFragment"
+        android:label="fragment_fun_fact"
+        tools:layout="@layout/fragment_fun_fact" />
+</navigation>
